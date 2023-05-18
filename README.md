@@ -31,10 +31,10 @@ Follow this step carefully (this step installation is for windows) :
 6. After that wait untill finish the configuration for the first time. And then set different kind of flags (type on search to find it quick) such as :
 - WITH_CUDA (checklist)
 - ENABLE_FAST_MATH (checklist)
-  3. BUILD_opencv_world (checklist)
-  4. OPENCV_EXTRA_MODULES_PATH (select directory of opencv-contrib modules, C:\opencvGPU\opencv_contrib-4.6.0\modules
-  5. And then click configure again and wait in several minutes.
-  6. After that, set several flags again.
-  7. CUDA_FAST_MATH (checklist)
-  8. CUDA_ARCH_BIN (6.1), you can check compute capability of NVIDIA GPU [here](https://developer.nvidia.com/cuda-gpus), in this case I'm using NVIDIA GeForce GTX 1050 so the compute capability is 6.1, if you have more than 1 GPU so put more than 1 value for CUDA_ARCH_BIN e.g (6.1;8.6:and soon).
+- BUILD_opencv_world (checklist)
+- OPENCV_EXTRA_MODULES_PATH (select directory of opencv-contrib modules, C:\opencvGPU\opencv_contrib-4.6.0\modules
+- And then click configure again and wait in several minutes.
+- After that, set several flags again.
+- CUDA_FAST_MATH (checklist)
+- CUDA_ARCH_BIN (6.1), you can check compute capability of NVIDIA GPU [here](https://developer.nvidia.com/cuda-gpus), in this case I'm using NVIDIA GeForce GTX 1050 so the compute capability is 6.1, if you have more than 1 GPU so put more than 1 value for CUDA_ARCH_BIN e.g (6.1;8.6:and soon).
 7. 
