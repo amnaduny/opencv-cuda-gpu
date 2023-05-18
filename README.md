@@ -3,7 +3,7 @@ Easy installation OpenCV Python and CUDA GPU
 
 Sources :
 opencv web : https://opencv.org/  
-opencv github : https://github.com/opencv
+opencv github : https://github.com/opencv  
 youtube tutorial : https://youtu.be/d8Jx6zO1yw0 (Nicolai Nielsen)
 
 In my case, 
