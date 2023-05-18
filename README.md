@@ -36,5 +36,6 @@ Follow this step carefully (this step installation is for windows) :
 - And then click configure again and wait in several minutes.
 - After that, set several flags again.
 - CUDA_FAST_MATH (checklist)
-- CUDA_ARCH_BIN (6.1), you can check compute capability of NVIDIA GPU [here](https://developer.nvidia.com/cuda-gpus), in this case I'm using NVIDIA GeForce GTX 1050 so the compute capability is 6.1, if you have more than 1 GPU so put more than 1 value for CUDA_ARCH_BIN e.g (6.1;8.6:and soon).
+- CUDA_ARCH_BIN (6.1), you can check compute capability of NVIDIA GPU [here](https://developer.nvidia.com/cuda-gpus) and click CUDA-Enabled GeForce and TITAN Products, in this case I'm using NVIDIA GeForce GTX 1050 so the compute capability is 6.1, if you have more than 1 GPU so put more than 1 value for CUDA_ARCH_BIN e.g (6.1;8.6:and soon).
+- CMAKE_CONFIGURATION_TYPES (Release)
 7. 
