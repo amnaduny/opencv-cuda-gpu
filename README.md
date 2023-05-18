@@ -29,6 +29,7 @@ Follow this step carefully (this step installation is for windows) :
 ![configure cmake config](https://github.com/amnaduny/opencv-cuda-gpu/assets/117987126/d7b8b84e-1600-4149-adbb-9c004463c76b)
 
 6. After that wait untill finish the configuration for the first time. And then set different kind of flags (type on search to find it quick) such as :
+
   1. WITH_CUDA (checklist)
   2. ENABLE_FAST_MATH (checklist)
   3. BUILD_opencv_world (checklist)
