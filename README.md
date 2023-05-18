@@ -44,4 +44,7 @@ Follow this step carefully (this step installation is for windows) :
 
 9. After finish building the binaries, open cmd again and type :
 >> python
->> 
+>> import cv2
+>> from cv2 import cuda
+>> cuda.printCudaDeviceInfo(0)
+You will see details of specification for the GPU Device.
