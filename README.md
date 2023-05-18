@@ -42,9 +42,6 @@ Follow this step carefully (this step installation is for windows) :
 
 8. After that, open "command prompt" and type command to install : cmake --build "C:\your_path\build" --target INSTALL --config Release, example : Command to Install: cmake --build "C:\opencvGPU\build" --target INSTALL --config Release, press ENTER and the command will run the program to build the binaries files into build directory. It takes 1-2 hours depend on your laptop. Maybe you will face some error and warning but as long as the installation is still working so don't worry about it just continue it.
 
-9. After finish building the binaries, open cmd again and type :
->> python
->> import cv2
->> from cv2 import cuda
->> cuda.printCudaDeviceInfo(0)
-You will see details of specification for the GPU Device.
+9. After finish building the binaries, open cmd again and type the same as below :
+![opencv version](https://github.com/amnaduny/opencv-cuda-gpu/assets/117987126/36062048-c60b-446d-a508-fc0594f5000e)
+
