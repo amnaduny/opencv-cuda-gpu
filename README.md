@@ -10,10 +10,10 @@ In my case,
 1. I have installed Python 3.9.12
 2. Opencv 4.6.0
 3. Opencv-contrib 4.6.0
-4. cuda version 11.2
-5. cudnn version 8.1
+4. CUDA version 11.2
 
 Follow this step carefully (this step installation is for windows) :
+1. Download and install NVIDIA-CUDA [here](https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local)
 1. Install Cmake, you can download [here](https://cmake.org/download/) and choose windows x64 installer or you can just click [here](https://github.com/Kitware/CMake/releases/download/v3.26.3/cmake-3.26.3-windows-x86_64.msi) to download Cmake installation directly.
 2. Download and extract opencv 4.6.0 source code [here](https://github.com/opencv/opencv/archive/refs/tags/4.6.0.zip) or you can try to download other version shown below.
 
@@ -38,4 +38,5 @@ Follow this step carefully (this step installation is for windows) :
 - CUDA_FAST_MATH (checklist)
 - CUDA_ARCH_BIN (6.1), you can check compute capability of NVIDIA GPU [here](https://developer.nvidia.com/cuda-gpus) and click CUDA-Enabled GeForce and TITAN Products, in this case I'm using NVIDIA GeForce GTX 1050 so the compute capability is 6.1, if you have more than 1 GPU so put more than 1 value for CUDA_ARCH_BIN e.g (6.1;8.6:and soon).
 - CMAKE_CONFIGURATION_TYPES (Release)
+- Then click Configure for the last time.
 7. 
