@@ -40,7 +40,8 @@ Follow this step carefully (this step installation is for windows) :
 - CMAKE_CONFIGURATION_TYPES (Release)
 - Then click Configure for the last time, wait till done.
 
-8. After that, open "command prompt" and type command to install : cmake --build "C:\your_path\build" --target INSTALL --config Release, example : Command to Install: cmake --build "C:\opencvGPU\build" --target INSTALL --config Release, press ENTER and the command will run the program to build the binaries files into build directory. It takes 1-2 hours depend on your laptop. Maybe you will face some error and warning but as long as the installation is still working so don't worry about it just continue it.
+8. After that, open "command prompt" and type command to install : ***cmake --build "C:\your_path\build" --target INSTALL --config Release***,  
+example : ***Command to Install: cmake --build "C:\opencvGPU\build" --target INSTALL --config Release***, press ENTER and the command will run the program to build the binaries files into build directory. It takes 1-2 hours depend on your laptop. Maybe you will face some error and warning but as long as the installation is still working so don't worry about it just continue it.
 
 9. After finish building the binaries, open cmd again and type the same as below :
 ![cmd cudadeviceinfo](https://github.com/amnaduny/opencv-cuda-gpu/assets/117987126/7a180e14-b9a8-43b3-b81a-86c708353d07)
