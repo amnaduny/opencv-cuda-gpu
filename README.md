@@ -20,6 +20,8 @@ Follow this step carefully (this step installation is for windows) :
 3. Download and extract opencv_contrib 4.6.0 [here](https://github.com/opencv/opencv_contrib/archive/refs/tags/4.6.0.zip), remember to download the same version in opencv source code and contrib file.
 4. Create folder "opencvGPU" in your local computer, in my case I create it on local disk C:\opencvGPU. Put opencv-4.6.0 and opencv_contrib-4.6.0 in this folder and create 'build' folder. We have empty 'build' folder, this folder will be a place for cmake to build the binaries. Do the same as picture below.
 ![cmake dir](https://github.com/amnaduny/opencv-cuda-gpu/assets/117987126/0ecd0a13-df68-4716-9fb9-e26ac0fdcf20)
-5. After it's done, click configure and pop up will show up. need to install Visual Studio 16 (or Visual Studio 2019), you can download it [here](https://visualstudio.microsoft.com/vs/older-downloads/) . Put the same form as below then finish :
-![configure cmake config](https://github.com/amnaduny/opencv-cuda-gpu/assets/117987126/a5a2ac3d-b966-4c0d-81cd-f257d24cfa78)
+5. After it's done, click configure and pop up will show up. need to install Visual Studio 16 (or Visual Studio 2019), you can download it [here](https://visualstudio.microsoft.com/vs/older-downloads/) . Put the same form as below then finish.
+![configure cmake config](https://github.com/amnaduny/opencv-cuda-gpu/assets/117987126/d7b8b84e-1600-4149-adbb-9c004463c76b)
+
 7. 
+8. 
