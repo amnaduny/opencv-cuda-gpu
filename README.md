@@ -32,15 +32,15 @@ Follow this step carefully (this step installation is for windows) :
 ![configure cmake config](https://github.com/amnaduny/opencv-cuda-gpu/assets/117987126/d7b8b84e-1600-4149-adbb-9c004463c76b)
 
 7. After that wait untill finish the configuration for the first time. And then set different kind of flags (type on search to find it quick) such as :
-- ***WITH_CUDA (checklist)
-- ***ENABLE_FAST_MATH (checklist)
-- ***BUILD_opencv_world (checklist)
-- ***OPENCV_EXTRA_MODULES_PATH (select directory of opencv-contrib modules, C:\opencvGPU\opencv_contrib-4.6.0\modules
+- ***WITH_CUDA (checklist)***
+- ***ENABLE_FAST_MATH (checklist)***
+- ***BUILD_opencv_world (checklist)***
+- ***OPENCV_EXTRA_MODULES_PATH (select directory of opencv-contrib modules, C:\opencvGPU\opencv_contrib-4.6.0\modules***
 - And then click configure again and wait in several minutes.
 - After that, set several flags again.
-- ***CUDA_FAST_MATH (checklist)
+- ***CUDA_FAST_MATH (checklist)***
 - ***CUDA_ARCH_BIN (6.1)***, you can check compute capability of NVIDIA GPU [here](https://developer.nvidia.com/cuda-gpus) and click CUDA-Enabled GeForce and TITAN Products, in this case I'm using NVIDIA GeForce GTX 1050 so the compute capability is 6.1, if you have more than 1 GPU so put more than 1 value for CUDA_ARCH_BIN e.g (6.1;8.6:and soon).
-- ***CMAKE_CONFIGURATION_TYPES (Release)
+- ***CMAKE_CONFIGURATION_TYPES (Release)***
 - Then click Configure for the last time, wait till done.
 
 8. After that, open "command prompt" and type command to install : ***cmake --build "C:\your_path\build" --target INSTALL --config Release***,  
